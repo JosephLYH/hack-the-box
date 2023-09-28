@@ -7,6 +7,7 @@ RUN apt install -y openvpn
 RUN apt install -y iputils-ping
 RUN apt install -y nmap
 RUN apt install -y ftp
+RUN apt install -y netbase
 
 COPY code /code
 COPY config /config
